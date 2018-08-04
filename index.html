@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+    <style>
+        body {
+            /* background-color: black; */
+        }
+
+        #recaman {
+            /* background-color: white; */
+            border: solid 1px black;
+        }
+    </style>
+
+<script src="./dist/bundle.js"></script>
+
+</head>
+
+<body>
+    <div id="main-container" class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <canvas id="recaman">
+                </canvas>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>                    
+                        <div class="form-group">
+                            <label for="sequenceLength">Sequence Length</label>
+                            <input type="number" class="form-control" id="sequenceLength" />
+                        </div>
+                        <div class="form-group">
+                            <label for="framesPerElem">Frames per sequence element</label>
+                            <input type="number" class="form-control" id="framesPerElem" />                            
+                        </div>
+                        <div class="form-group">
+                            <label for="currentStep">Current Step:</label>
+                            <span id="currentStep"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="sequenceValues">Sequence Values:</label>
+                            <span id="sequenceValues"></span>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="startButton">Start</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
