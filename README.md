@@ -8,6 +8,7 @@ Based off the visual representation from the Numberphile video:  https://www.you
 ## To Build
 
 > npm install
+
 > webpack
 
 Then open index.html
